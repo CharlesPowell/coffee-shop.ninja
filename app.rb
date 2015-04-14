@@ -23,7 +23,7 @@ get '/api/products' do
 end
 
 # list by id
-get '/api/product/:id' do
+get '/api/products/:id' do
 	content_type :json
 	id = params[:id].to_i
 	product = Product.find(id)
