@@ -1,0 +1,12 @@
+/var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/spec_set.rb:92:in `block in materialize': Could not find i18n-0.7.0 in any of the sources (Bundler::GemNotFound)
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/spec_set.rb:85:in `map!'
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/spec_set.rb:85:in `materialize'
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/definition.rb:132:in `specs'
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/definition.rb:177:in `specs_for'
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/definition.rb:166:in `requested_specs'
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/environment.rb:18:in `requested_specs'
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/runtime.rb:13:in `setup'
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler.rb:122:in `setup'
+	from /var/lib/gems/1.9.1/gems/bundler-1.9.4/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
