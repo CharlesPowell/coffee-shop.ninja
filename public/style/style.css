@@ -1,0 +1,44 @@
+body {
+  font-family: "Calibri", "Arial", sans-serif;
+  margin: 0px;
+  background-color: rgb(0,0,0);
+  color: rgb(232, 218, 195);
+  text-align: center;
+}
+h1 {
+	color: rgb(250, 179, 55);
+	font-style: italic;
+	font-weight: bold;
+}
+#wrapper {
+  width: 90%;
+  margin: 15px auto;
+}
+header {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+section {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+footer {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu ul {
+  padding: 0px;
+}
+.menu li {
+  display: inline-block;
+  list-style: none;
+}
