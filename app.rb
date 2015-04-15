@@ -13,6 +13,25 @@ get '/' do
   erb :index
 end
 
+# Error pages
+
+# 404
+not_found do
+  status 404
+  erb :ohno
+end
+
+# 403 
+error 403 do
+  erb :denied
+end
+
+# 500 
+error 500 do
+  erb :crikey
+end
+
+
 # RESTful api
 
 # list all
